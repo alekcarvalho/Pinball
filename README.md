@@ -17,6 +17,6 @@ Escolhi utilizar o VueJS pois é, em minha avaliação, o melhor framework JS pa
 
 ## Como rodar o projeto
 
-Colocar o conteúdo da pasta "dist" na raiz do servidor.
+Colocar o conteúdo da pasta "dist" em uma pasta chamada "pinball" no servidor.
 
 Quaisquer dúvidas entrar em contato pelo email: alek_carvalho@hotmail.com
