@@ -1,0 +1,37 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Alek <alek_carvalho@hotmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=dev nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "buefy": "^0.6.2",
+    "jquery": "^3.2.1",
+    "nuxt": "^1.0.0-rc11",
+    "nuxt-sass-resources-loader": "^1.1.0",
+    "vue-bulma-rating": "^1.0.1",
+    "vue-masonry": "^0.10.16"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.13.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^4.0.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6"
+  }
+}

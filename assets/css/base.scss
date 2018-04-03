@@ -1,0 +1,277 @@
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+/*
+@font-face {
+font-family: 'Sailec';
+src: url('~@/assets/fonts/sailec.otf') format('otf');
+}
+*/
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hide {
+    display: none;
+}
+
+.display-block{
+  display: block;
+}
+
+.display-flex{
+  display: flex;
+}
+
+.hidden {
+    display: none!important;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.disabled {
+    opacity: 0.6;
+}
+
+.disabled:hover {
+    opacity: 0.6;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.avatar-image {
+    width: 42px;
+    height: 42px;
+    border-radius: 23px;
+    margin-right: 5px;
+}
+
+.box {
+    position: relative;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
+}
+
+.center-coluna {
+    width: 100%;
+    text-align: center;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-45 {
+    margin-bottom: 45px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-35 {
+    margin-top: 35px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-45 {
+    margin-top: 45px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.ttu {
+    text-transform: uppercase;
+}
+
+.overflow {
+    overflow: visible;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+.no-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.no-margin{
+  margin: 0;
+}
+.no-padding{
+  padding: 0;
+}
+.no-wrap{
+  margin: 0;
+  padding: 0;
+}
+
+//Placeholder
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+/* FF 4-18 */
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+/* FF 19+ */
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+/* IE 10+ */
+.input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.input:focus:-moz-placeholder {
+  color: transparent;
+}
+/* FF 4-18 */
+.input:focus::-moz-placeholder {
+  color: transparent;
+}
+/* FF 19+ */
+.input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
